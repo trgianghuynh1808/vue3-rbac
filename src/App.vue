@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import FccButton from "./components/FccButton.vue";
-import { useHelloWorld } from "./hooks";
-
+import { FccButton, useHelloWorld } from "vue3-rbac";
+import "vue3-rbac/style.css";
 const test = useHelloWorld();
 
 console.log({ test });

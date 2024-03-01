@@ -1,6 +1,6 @@
 {
   "name": "vue3-rbac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Eri Huynh"
   },
@@ -25,7 +25,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue3-rbac": "file:../vue3-rbac"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
