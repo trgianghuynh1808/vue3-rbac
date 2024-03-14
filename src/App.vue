@@ -1,15 +1,11 @@
 <script setup lang="ts">
-import { FccButton, useHelloWorld } from "vue3-rbac";
-import "vue3-rbac/style.css";
-const test = useHelloWorld();
-
-console.log({ test });
-// import { FccButton } from 'test-component-lib'
-// import "test-component-lib/style.css"
+import { RBACProvider } from "vue3-rbac";
 </script>
 
 <template>
-  <FccButton text="Run the Tests" />
+  <RBACProvider>
+    <span>Test</span>
+  </RBACProvider>
 </template>
 
 <style scoped>

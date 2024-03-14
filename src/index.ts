@@ -1,4 +1,5 @@
-import FccButton from "./components/FccButton.vue";
-import { useHelloWorld } from "./hooks";
+import RBACProvider from "./components/RBACProvider.vue";
 
-export { FccButton, useHelloWorld };
+export * from "./interfaces";
+
+export { RBACProvider };
